@@ -1,0 +1,23 @@
+def calSI():
+    #input product name as p
+    p=(input("Enter Product name : "))
+    #input quantity as q
+    q = int(input("Enter quantity : "))
+    #input price per unit as r
+    r = int(input("Enter price per unit : Rs."))
+    #calculate basic Bill as b = q*r
+    b = q*r
+    #calculate Total Bill as T = 18/100*b + b
+    T = 18/100 * b+b
+    #print Product name
+    print("Product name : ",p)
+    #print quantity
+    print ("quantity : ",q)
+    #print price per unit
+    print("price per unit : Rs.",r)
+    #print Basic Bill
+    print("Basic Bill :Rs.",b)
+    #print Total Bill
+    print ("Total Bill :Rs.",T)
+
+calSI()
